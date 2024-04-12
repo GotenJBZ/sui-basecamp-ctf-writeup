@@ -66,7 +66,8 @@ module challenge::dogwifcap{
 During the publishing of this module, it instantiates a `Challenge` object and makes it a shared object.
 
 > A quick disclaimer for those who haven't work with Sui before:
-> A shared object is an object that has no owner and anyone can obtain a mutable reference to that object: `&mut Obj`.
+>
+> a shared object is an object that has no owner and anyone can obtain a mutable reference to that object: `&mut Obj`.
 > 
 
 Our goal to solve the challenge is to set `challenge.solved` to `true`.
@@ -980,8 +981,8 @@ module exp::exp {
 # Typed
 
 > fun fact: this was my take-home assignment during my interview at Ottersec
-Not fun fact: I didn’t exploit it during the interview 🥲
-Time to take revenge.
+> Not fun fact: I didn’t exploit it during the interview 🥲
+> Time to take revenge.
 > 
 
 The challenge provides zcoin.move:
@@ -1329,6 +1330,7 @@ index 5902f875af..bc0ac9feb6 100644
 # Gringotts
 
 > During the competition, this challenge was flagged by [capcap_max](https://twitter.com/capcap_max), who participated in a CTF for the first time. GGWP MAN.
+>
 > This is my solution for the challenge
 >
 
